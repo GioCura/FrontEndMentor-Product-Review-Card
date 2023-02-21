@@ -136,7 +136,7 @@ button {
   width: 1.2rem;
 }
 
-.btn-cta p {
+.btn-cta span {
   color: hsl(30, 38%, 92%);
   font-size: 1.5rem;
   font-weight: 700;
