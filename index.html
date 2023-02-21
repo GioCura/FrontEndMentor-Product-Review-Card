@@ -27,8 +27,20 @@
     <main class="card-wrapper">
       <div class="card-container">
         <div class="img-container">
-          <img class="img-mobile" src="images/image-product-mobile.jpg" alt="A picture of Chanel perfume" />
-          <img class="img-desktop" src="images/image-product-desktop.jpg" alt="A picture of Chanel perfume" />
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/image-product-desktop.jpg"
+            />
+            <source
+              media="(min-width: 0)"
+              srcset="images/image-product-mobile.jpg"
+            />
+            <img
+              src="images/image-product-mobile.jpg"
+              alt="A picture of Chanel perfume"
+            />
+          </picture>
         </div>
         <div class="text-wrapper">
           <div class="text-container">
