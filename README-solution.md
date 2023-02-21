@@ -22,8 +22,8 @@ This is my solution to the [Product Preview Card Component Challenge](https://ww
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://gc5-qrcomponent.netlify.app)
+- Solution URL: [My Solution](https://your-solution-url.com)
+- Live Site URL: [Live URL](https://gc6-productreviewcard.netlify.app)
 
 ## My process
 
@@ -52,4 +52,4 @@ Unlike my first sumbission, I went for a mobile-first approach. I stuck to flexb
 
 ## Author
 
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/GioCura)
+- Frontend Mentor - [My Frontend Profile](https://www.frontendmentor.io/profile/GioCura)
