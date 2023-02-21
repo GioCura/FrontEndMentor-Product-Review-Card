@@ -22,7 +22,6 @@ This is my solution to the [Product Preview Card Component Challenge](https://ww
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
 - Live Site URL: [Live URL](https://gc6-productreviewcard.netlify.app)
 
 ## My process
