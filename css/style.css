@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-wrapper,
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-wrapper {
+  height: 90%;
+  align-items: center;
+}
+
+.card-container {
+  background-color: hsl(0, 0%, 100%);
+  gap: 1.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 2.5rem;
+}
+
+.img-container {
+  width: 35rem;
+}
+
+img {
+  width: 100%;
+}
+
+.img-desktop {
+  display: none;
+}
+
+.text-wrapper {
+  display: flex;
+  align-self: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.text-category,
+.perfume-description,
+.price-orig {
+  color: hsl(228, 12%, 48%);
+}
+
+.text-category {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 0.38rem;
+}
+
+.perfume-name,
+.price-discount {
+  font-family: "Fraunces", serif;
+}
+
+.perfume-name {
+  color: hsl(212, 21%, 14%);
+  font-size: 3.25rem;
+  line-height: 3.2rem;
+}
+
+.perfume-description {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.price-discount {
+  color: hsl(158, 36%, 37%);
+  font-size: 3.5rem;
+}
+
+.price-orig {
+  text-decoration: line-through;
+  font-size: 1.25rem;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn-cta {
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1.2rem;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn-cta-icon {
+  width: 1.2rem;
+}
+
+.btn-cta p {
+  color: hsl(30, 38%, 92%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.btn-cta:hover {
+  background-color: hsl(158, 36%, 22%);
+}
+
+.br-desktop {
+  display: none;
+}
+
+.attribution {
+  height: 10%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
