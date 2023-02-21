@@ -42,6 +42,8 @@ Unlike my first sumbission, I went for a mobile-first approach. I stuck to flexb
   To make the shift to the desktop version, all I had to do was display and hide certain <br> elements using media queries.
 
 - I initially settled on using srcset/sizes to make the image responsive, but it wasn't fluid. Since it's just one version, I just wrote the two images in the html and changed their 'display' states through media queries.
+  
+  ***EDIT: Thanks to [@frank-tachi](https://www.frontendmentor.io/profile/frank-itachi), I updated this to use the 'picture' tag. This saves the code from having duplicate alt tags, and is a better basis for potential additional versions of the image.
 
 ### Continued development
 
