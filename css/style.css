@@ -15,6 +15,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 .card-wrapper,
 .card-container {
   display: flex;
