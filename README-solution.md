@@ -37,7 +37,7 @@ Unlike my first sumbission, I went for a mobile-first approach. I stuck to flexb
 
 - My experience at the beginning of this project was the same as the first one. It's just that I had to use a lot of nested elements here!
 
-- I divided each paragraph line into <span> elements the last time, which worked well to keep the alignment consistent even when resizing. I tried to do the same here, until I realized that the alignment changes in the desktop version! It's too messy to just lump all the text in one <p> element, that is until I added <br> elements!
+- I divided each paragraph line into <span> elements the last time, which worked well to keep the alignment consistent even when resizing. I tried to do the same here, until I realized that the alignment changes in the desktop version! It's too messy to just lump all the text in one 'p' element, that is until I used br elements!
 
   To make the shift to the desktop version, all I had to do was display and hide certain <br> elements using media queries.
 
