@@ -22,7 +22,7 @@ This is my solution to the [Product Preview Card Component Challenge](https://ww
 
 ### Links
 
-- Live Site URL: [Live URL](https://gc6-productreviewcard.netlify.app)
+- Live Site URL: [Live URL](https://gc5-qrcomponent.netlify.app)
 
 ## My process
 
@@ -32,24 +32,18 @@ Unlike my first sumbission, I went for a mobile-first approach. I stuck to flexb
 
 - HTML5
 - CSS3
+- Mobile-first approach
+- (Updated 02/25/2023) BEM
 
 ### What I learned
 
-- I remembered to use html landmarks again, all thanks to Frontendmentor for reminding me. 😅
-
 - My experience at the beginning of this project was the same as the first one. It's just that I had to use a lot of nested elements here!
 
-- I divided each paragraph line into <span> elements the last time, which worked well to keep the alignment consistent even when resizing. I tried to do the same here, until I realized that the alignment changes in the desktop version! It's too messy to just lump all the text in one 'p' element, that is until I used br elements!
+- I divided each paragraph line into <span> elements the last time, which worked well to keep the alignment consistent even when resizing. I tried to do the same here, until I realized that the alignment changes in the desktop version! It's too messy to just lump all the text in one <p> element, that is until I added <br> elements!
 
   To make the shift to the desktop version, all I had to do was display and hide certain <br> elements using media queries.
 
 - I initially settled on using srcset/sizes to make the image responsive, but it wasn't fluid. Since it's just one version, I just wrote the two images in the html and changed their 'display' states through media queries.
-  
-  ***EDIT: Thanks to [@frank-tachi](https://www.frontendmentor.io/profile/frank-itachi), I updated this to use the 'picture' tag. This saves the code from having duplicate alt tags, and is a better basis for potential additional versions of the image.
-  
-  One thing to note, using the picture tag did add a tiny padding at the bottom of the picture. I got it fixed by adding vertical-align: bottom to the img.
-  
- - I also learned not to place nest p elements under button elements. Instead, I should opt for span.
 
 ### Continued development
 
@@ -59,4 +53,4 @@ Unlike my first sumbission, I went for a mobile-first approach. I stuck to flexb
 
 ## Author
 
-- Frontend Mentor - [My Frontend Profile](https://www.frontendmentor.io/profile/GioCura)
+- Frontend Mentor - [](https://www.frontendmentor.io/profile/GioCura)
