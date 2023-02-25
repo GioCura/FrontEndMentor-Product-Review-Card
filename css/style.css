@@ -15,48 +15,55 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 button {
   border: none;
   text-decoration: none;
 }
 
-.cardbox,
-.card {
+main,
+.card,
+.card__textbox,
+.card__pricebox,
+.card__button {
   display: flex;
-  flex-direction: column;
+}
+
+main,
+.card,
+.card__button {
   justify-content: center;
 }
 
-.cardbox {
-  height: 90%;
+main,
+.card__pricebox,
+.card__button {
   align-items: center;
+}
+
+main,
+.card,
+.card__textbox {
+  flex-direction: column;
+}
+
+main {
+  height: 90%;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
   gap: 1.5rem;
   border-radius: 10px;
-  overflow: hidden;
   padding-bottom: 2.5rem;
-}
-
-.card__imagebox {
-  width: 35rem;
+  overflow: hidden;
 }
 
 .card__image {
-  width: 100%;
+  width: 35rem;
   vertical-align: bottom;
 }
 
 .card__textbox {
-  display: flex;
-  flex-direction: column;
   gap: 1.2rem;
   align-self: center;
 }
@@ -90,8 +97,6 @@ button {
 }
 
 .card__pricebox {
-  display: flex;
-  align-items: center;
   gap: 2rem;
 }
 
@@ -110,9 +115,6 @@ button {
   width: 100%;
   border-radius: 10px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 0.8rem;
   padding: 1.2rem;
 
