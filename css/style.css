@@ -54,15 +54,11 @@ button {
   vertical-align: bottom;
 }
 
-.card__textbox2 {
-  display: flex;
-  align-self: center;
-}
-
-.card__textbox1 {
+.card__textbox {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  align-self: center;
 }
 
 .card__category,
