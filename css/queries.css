@@ -17,13 +17,10 @@
     width: 31rem;
   }
 
-  .card__textbox2 {
-    height: 100%;
-  }
-
-  .card__textbox1 {
+  .card__textbox {
     gap: 0rem;
     padding: 3rem 4rem;
+    /* height: 100%; */
   }
 
   .card__category {
