@@ -20,19 +20,24 @@ h1 {
   font-weight: inherit;
 }
 
-.card-wrapper,
-.card-container {
+button {
+  border: none;
+  text-decoration: none;
+}
+
+.cardbox,
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.card-wrapper {
+.cardbox {
   height: 90%;
   align-items: center;
 }
 
-.card-container {
+.card {
   background-color: hsl(0, 0%, 100%);
   gap: 1.5rem;
   border-radius: 10px;
@@ -40,85 +45,76 @@ h1 {
   padding-bottom: 2.5rem;
 }
 
-.img-container {
+.card__imagebox {
   width: 35rem;
 }
 
-img {
+.card__image {
   width: 100%;
   vertical-align: bottom;
 }
 
-.img-desktop {
-  display: none;
-}
-
-.text-wrapper {
+.card__textbox2 {
   display: flex;
   align-self: center;
 }
 
-.text-container {
+.card__textbox1 {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
 
-.text-category,
-.perfume-description,
-.price-orig {
+.card__category,
+.card__description,
+.card__oldprice {
   color: hsl(228, 12%, 48%);
 }
 
-.text-category {
+.card__category {
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: 0.38rem;
 }
 
-.perfume-name,
-.price-discount {
+.card__name,
+.card__newprice {
   font-family: "Fraunces", serif;
 }
 
-.perfume-name {
+.card__name {
   color: hsl(212, 21%, 14%);
   font-size: 3.25rem;
   line-height: 3.2rem;
 }
 
-.perfume-description {
+.card__description {
   font-size: 1.4rem;
   line-height: 2.2rem;
 }
 
-.price-container {
+.card__pricebox {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.price-discount {
+.card__newprice {
   color: hsl(158, 36%, 37%);
   font-size: 3.5rem;
 }
 
-.price-orig {
+.card__oldprice {
   text-decoration: line-through;
   font-size: 1.25rem;
 }
 
-button {
-  border: none;
-  text-decoration: none;
-}
-
-.btn-container {
+.card__cta {
   display: flex;
   align-items: center;
 }
 
-.btn-cta {
+.card__button {
   background-color: hsl(158, 36%, 37%);
   width: 100%;
   border-radius: 10px;
@@ -133,21 +129,21 @@ button {
   cursor: pointer;
 }
 
-.btn-cta-icon {
+.card__button img {
   width: 1.2rem;
 }
 
-.btn-cta span {
-  color: hsl(0, 0%, 100%);
+.card__button span {
+  color: hsl(30, 38%, 92%);
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.btn-cta:hover {
+.card__button:hover {
   background-color: hsl(158, 36%, 22%);
 }
 
-.br-desktop {
+.break--desktop {
   display: none;
 }
 
