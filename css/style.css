@@ -109,11 +109,6 @@ button {
   font-size: 1.25rem;
 }
 
-.card__cta {
-  display: flex;
-  align-items: center;
-}
-
 .card__button {
   background-color: hsl(158, 36%, 37%);
   width: 100%;
