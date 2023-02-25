@@ -24,25 +24,23 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="cardbox">
-      <div class="card">
-        <div class="card__imagebox">
-          <picture>
-            <source
-              media="(min-width: 800px)"
-              srcset="images/image-product-desktop.jpg"
-            />
-            <source
-              media="(min-width: 0)"
-              srcset="images/image-product-mobile.jpg"
-            />
-            <img
-              src="images/image-product-mobile.jpg"
-              alt="A picture of Chanel perfume"
-              class="card__image"
-            />
-          </picture>
-        </div>
+    <main>
+      <article class="card">
+        <picture>
+          <source
+            media="(min-width: 800px)"
+            srcset="images/image-product-desktop.jpg"
+          />
+          <source
+            media="(min-width: 0)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img
+            src="images/image-product-mobile.jpg"
+            alt="A picture of Chanel perfume"
+            class="card__image"
+          />
+        </picture>
         <div class="card__textbox">
           <h1 class="card__category">Perfume</h1>
           <p class="card__name">
@@ -68,7 +66,7 @@
             <span>Add to Cart</span>
           </button>
         </div>
-      </div>
+      </article>
     </main>
 
     <footer class="attribution">
