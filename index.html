@@ -24,9 +24,9 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="card-wrapper">
-      <div class="card-container">
-        <div class="img-container">
+    <main class="cardbox">
+      <div class="card">
+        <div class="card__imagebox">
           <picture>
             <source
               media="(min-width: 800px)"
@@ -39,41 +39,34 @@
             <img
               src="images/image-product-mobile.jpg"
               alt="A picture of Chanel perfume"
+              class="card__image"
             />
           </picture>
         </div>
-        <div class="text-wrapper">
-          <div class="text-container">
-            <div class="text-category"><h1>Perfume</h1></div>
-            <div class="perfume-name">
-              <p>
-                Gabrielle<br class="br-desktop" />
-                Essence<br class="br-mobile" />
-                Eau<br class="br-desktop" />
-                De Parfum
-              </p>
+        <div class="card__textbox2">
+          <div class="card__textbox1">
+            <h1 class="card__category">Perfume</h1>
+            <p class="card__name">
+              Gabrielle<br class="break--desktop" />
+              Essence<br class="break--mobile" />
+              Eau<br class="break--desktop" />
+              De Parfum
+            </p>
+            <p class="card__description">
+              A floral, solar and voluptuous<br />
+              interpretation composed by <br class="break--desktop" />
+              Olivier<br class="break--mobile" />
+              Polge, Perfumer-Creator<br class="break--desktop" />
+              for the House of<br class="break--mobile" />
+              CHANEL.<br />
+            </p>
+            <div class="card__pricebox">
+              <p class="card__newprice">$149.99</p>
+              <p class="card__oldprice">$169.99</p>
             </div>
-            <div class="perfume-description">
-              <!-- <p>A floral, solar and voluptuous</p>
-              <p>interpretation composed by Olivier</p>
-              <p>Polge, Perfumer-Creator for the House of</p>
-              <p>CHANEL.</p> -->
-              <p>
-                A floral, solar and voluptuous<br />
-                interpretation composed by <br class="br-desktop" />
-                Olivier<br class="br-mobile" />
-                Polge, Perfumer-Creator<br class="br-desktop" />
-                for the House of<br class="br-mobile" />
-                CHANEL.<br />
-              </p>
-            </div>
-            <div class="price-container">
-              <p class="price-discount">$149.99</p>
-              <p class="price-orig">$169.99</p>
-            </div>
-            <div class="btn-container">
-              <button class="btn btn-cta">
-                <img class="btn-cta-icon" src="images/icon-cart.svg" alt="A shopping cart icon" />
+            <div class="card__cta">
+              <button class="card__button">
+                <img src="images/icon-cart.svg" alt="A shopping cart icon" />
                 <span>Add to Cart</span>
               </button>
             </div>
