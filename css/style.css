@@ -13,6 +13,10 @@ body {
   height: 100%;
   background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
@@ -20,7 +24,6 @@ button {
   text-decoration: none;
 }
 
-main,
 .card,
 .card__textbox,
 .card__pricebox,
@@ -28,13 +31,11 @@ main,
   display: flex;
 }
 
-main,
 .card,
 .card__button {
   justify-content: center;
 }
 
-main,
 .card__pricebox,
 .card__button {
   align-items: center;
@@ -45,26 +46,23 @@ main,
   flex-direction: column;
 }
 
-main {
-  height: 90%;
-}
-
 .card {
-  background-color: hsl(0, 0%, 100%);
-  gap: 1.5rem;
-  border-radius: 10px;
   padding-bottom: 2.5rem;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  border-radius: 10px;
   overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .card__image {
-  width: 35rem;
   vertical-align: bottom;
+  width: 35rem;
 }
 
 .card__textbox {
-  gap: 1.2rem;
   align-self: center;
+  gap: 1.2rem;
 }
 
 .card__category,
@@ -86,9 +84,9 @@ main {
 }
 
 .card__name {
-  color: hsl(212, 21%, 14%);
   font-size: 3.25rem;
   line-height: 3.2rem;
+  color: hsl(212, 21%, 14%);
 }
 
 .card__description {
@@ -101,25 +99,24 @@ main {
 }
 
 .card__newprice {
-  color: hsl(158, 36%, 37%);
   font-size: 3.5rem;
+  color: hsl(158, 36%, 37%);
 }
 
 .card__oldprice {
-  text-decoration: line-through;
   font-size: 1.25rem;
+  text-decoration: line-through;
 }
 
 .card__button {
-  background-color: hsl(158, 36%, 37%);
   width: 100%;
-  border-radius: 10px;
-
   gap: 0.8rem;
   padding: 1.2rem;
+  border-radius: 10px;
 
   transition: all 0.3s;
   cursor: pointer;
+  background-color: hsl(158, 36%, 37%);
 }
 
 .card__button img {
@@ -127,9 +124,9 @@ main {
 }
 
 .card__button span {
-  color: hsl(30, 38%, 92%);
   font-size: 1.5rem;
   font-weight: 700;
+  color: hsl(30, 38%, 92%);
 }
 
 .card__button:hover {
@@ -141,7 +138,6 @@ main {
 }
 
 .attribution {
-  height: 10%;
   text-align: center;
   font-size: 1.1rem;
 }
