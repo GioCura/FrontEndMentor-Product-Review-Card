@@ -55,12 +55,11 @@
   }
 
   .card__button {
-    padding: 1.4rem;
     gap: 1rem;
   }
 
   .card__button img {
-    width: 1.4rem;
+    width: 1.5rem;
   }
 
   .card__button span {
