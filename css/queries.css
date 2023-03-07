@@ -18,33 +18,32 @@
   }
 
   .card__textbox {
-    gap: 0rem;
     padding: 3rem 4rem;
-    /* height: 100%; */
+    gap: 0rem;
   }
 
   .card__category {
-    font-size: 1.6rem;
     padding-bottom: 2rem;
+    font-size: 1.6rem;
   }
 
   .card__name {
+    padding-bottom: 2rem;
     font-size: 3.65rem;
     line-height: 3rem;
-    padding-bottom: 2rem;
   }
 
   .card__description {
+    padding-bottom: 3rem;
     font-size: 1.6rem;
     line-height: 2.5rem;
-    padding-bottom: 3rem;
   }
 
   .card__pricebox {
     display: flex;
     align-items: center;
-    gap: 2rem;
     padding-bottom: 3rem;
+    gap: 2rem;
   }
 
   .card__newprice {
@@ -66,5 +65,11 @@
 
   .card__button span {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 374px) {
+  html {
+    font-size: 50%;
   }
 }
